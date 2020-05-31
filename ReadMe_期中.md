@@ -2,7 +2,7 @@
 ## 1.1更改布局
 因为要增加时间戳，所以一个控件是不够的，notelist_item.xml是要改的。需要增加一个TextView用于显示时间戳。
 这里采用线性布局，将笔记标题和时间戳做垂直（vertical）的线性布局
-![图片描述]()
+
 ### 整体代码如下：
 ```bash
 <?xml version="1.0" encoding="utf-8"?>
@@ -34,7 +34,7 @@
 </LinearLayout>
 ```
 ### 布局截图
-![图片描述]()
+![图片描述](https://github.com/yufeng-lin/Android_Mid-term/blob/master/pic/layout.png)
 
 
 
@@ -77,7 +77,7 @@
 
 不然时间就会显示形成一串数字：
 
-![图片描述]()
+![图片描述](https://github.com/yufeng-lin/Android_Mid-term/blob/master/pic/mistake.png)
 代码更改如下：
 ```java
         ContentValues values = new ContentValues();
@@ -90,7 +90,7 @@
 
 
 ## 1.5最终结果
-![图片描述]()
+![图片描述](https://github.com/yufeng-lin/Android_Mid-term/blob/master/pic/result1.png)
 
 
 # 2第二项功能
@@ -99,7 +99,7 @@
 在菜单栏增加一个item用于搜索，
 也就是在menu文件夹下增加一个文件
 并附上一个对应意思的小图标
-![图片描述]()
+![图片描述](https://github.com/yufeng-lin/Android_Mid-term/blob/master/pic/search.png)
 布局代码
 
 ```bash
@@ -119,7 +119,7 @@
     </menu>
 ```
 布局效果图片
-![图片描述]()
+![图片描述](https://github.com/yufeng-lin/Android_Mid-term/blob/master/pic/search_menu.png)
 
 ## 2.2编写事件
 
@@ -151,7 +151,7 @@
 
 点击 放大镜小图标 之后响应如下
 
-![图片描述]()
+![图片描述](https://github.com/yufeng-lin/Android_Mid-term/blob/master/pic/search_click.png)
 
 ### 2.2.1搜索响应事件
 更新SQL查询语句，刷新游标，把数据传入适配器
@@ -189,7 +189,7 @@
 
 ## 2.3 结果
 ### 笔记截图
-![图片描述]()
+![图片描述](https://github.com/yufeng-lin/Android_Mid-term/blob/master/pic/result2.1.png)
 
 ### 搜索结果截图
-![图片描述]()
+![图片描述](https://github.com/yufeng-lin/Android_Mid-term/blob/master/pic/result2.2.png)
